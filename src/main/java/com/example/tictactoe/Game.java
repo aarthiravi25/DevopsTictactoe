@@ -69,6 +69,4 @@ public class Game {
     public String getCurrentPlayer() { return currentPlayer; }
     public String getWinner() { return winner; }
     public boolean isGameOver() { return isGameOver; }
-} {
-    
 }
