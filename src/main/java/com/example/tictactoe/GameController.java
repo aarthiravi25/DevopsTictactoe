@@ -14,7 +14,7 @@ public class GameController {
         return game;
     }
 
-    @PostMapping("/move")
+    @PostMapping("/moves")
     public Game makeMove(@RequestParam int index) {
         game.makeMove(index);
         return game;
